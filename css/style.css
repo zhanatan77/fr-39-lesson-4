@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Playfair Display',sans-serif;
+}
+
+.header {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(255, 253, 253);
+}
+.header-title a {
+    padding: 5px 30px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #B8BECD;
+}
+.btn1 {
+    width: 132px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FB8F1D;
+    mix-blend-mode: normal;
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+}
+.btn2 {
+    margin: 0 20px;
+    width: 132px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    background: rgba(255, 183, 0, 0.75);
+    mix-blend-mode: normal;
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+}
+
+/*HERO*/
+
+
+#hero {
+    padding: 80px 0;
+}
+.hero{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.hero-logo h1{
+    padding: 50px 0 50px 0;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #202336;
+}
+.hero-logo h3{
+    padding:10px 0 50px 0;
+    font-weight: 600;
+    font-size: 22px;
+    color: #202336;
+}
+.hero-title select {
+    width: 220px;
+    height: 52px;
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #4A4C53;
+    margin: 15px 15px;
+}
+
+.hero-logo button {
+    margin: 40px;
+    width: 180px;
+    height: 52px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #FFFFFF;
+    background: #FB8F1D;
+    border-radius: 8px;
+}
+/*.hero-img {*/
+/*    !*width: 687px;*!*/
+/*    !*height: 654px;*!*/
+/*}*/
+
+/*CART*/
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.carts h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000
+}
+.carts p {
+    padding: 40px 0;
+    width: 450px;
+    height: 120px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+}
+.carts button {
+    width: 164px;
+    height: 48px;
+    background: #FB8F1D;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+/*INFO*/
+
+#info {
+    padding: 80px 0;
+}
+.info {
+    margin: 80px 64px 50px 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 50px;
+    color: #000000;
+}
+.info h3 {
+    font-weight: 600;
+    font-size: 17px;
+    color: #FB8F1D;
+}
+
+.blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.block-title {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 120px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 0 6px 0 0;
+}
+.block{
+    position: relative;
+}
+.block-title h2 {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    color: #042521;
+}
+.block-title h2 span {
+    color: #80918E;
+    font-size: 14px;
+}
+.block img {
+    border-radius: 10px;
+}
+/*LAINER*/
+#lainer {
+    padding: 50px 0;
+}
+
+.lainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.lainer-logo h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+}
+.lainer-logo p{
+    padding: 40px 0;
+    width: 450px;
+    height: 90px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+}
+.lainer-logo button{
+    width: 164px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #FB8F1D;
+    border-radius: 8px;
+}
+
+/*TIMONS*/
+
+
+.timons{
+    display: flex;
+}
+.jyl {
+    width: 30px;
+    height: 30px;
+    background: yellow;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
